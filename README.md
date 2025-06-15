@@ -7,5 +7,7 @@
 - medium
 
   [22012306_AUNI_MED_L2.cpp](LAB%202/MEDIUM/22012306_AUNI_MED_L2.cpp)
--hard
+- hard
+
+  [22012306_Auni_Hard_L2.cpp](LAB%202/HARD/22012306_Auni_Hard_L2.cpp)
 
