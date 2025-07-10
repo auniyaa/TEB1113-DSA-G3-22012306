@@ -61,7 +61,7 @@ int main() {
     list.add_element("Ali");
     list.add_element("Ahmed");
     list.add_element("Abu");
-    list.display_list();  // Output: Ali -> Ahmed -> NULL
+    list.display_list();  
 
     return 0;
 }
