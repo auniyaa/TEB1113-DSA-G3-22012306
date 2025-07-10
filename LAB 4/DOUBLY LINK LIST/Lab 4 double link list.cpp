@@ -55,7 +55,7 @@ public:
             current = current->next;
         } while (current != head);
 
-        cout << head->name << ")" << endl;
+        cout << head->name << endl;
     }
 };
 
