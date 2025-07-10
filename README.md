@@ -12,8 +12,8 @@ LAB GROURP : 3
 |-----------|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 28/5/2025 | 1   |[Lab 1](LAB%201/22012306_AuniAlyaa_L1.cpp)                                                                                                                                                   |
 | 4/6/2025  | 2   |[Lab 2 Easy](LAB%202/EASY/22012306_AUNI_L2_EASY.cpp)<br>[Lab 2 Medium](LAB%202/MEDIUM/22012306_AUNI_MED_L2.cpp)<br>[Lab 2 Hard](LAB%202/HARD/22012306_Auni_Hard_L2.cpp)                      |
-| 11/6/2025 | 3   |[Singly Linked List](LAB%203%20/%20SINGLY%20LINK%20LIST/L3_22012306_SINGLY_LINK_AUNI%20ALYAA.cpp)<br>[Doubly Linked List](LAB%203%20/DOUBLY%20LINK%20LIST/L3_22012306_DOUBLY_LINK_AUNI.cpp)  |
-
+| 13/6/2025 | 3   |[Singly Linked List](LAB%203%20/%20SINGLY%20LINK%20LIST/L3_22012306_SINGLY_LINK_AUNI%20ALYAA.cpp)<br>[Doubly Linked List](LAB%203%20/DOUBLY%20LINK%20LIST/L3_22012306_DOUBLY_LINK_AUNI.cpp)  |
+| 20/6/2025 | 4   |[Singly Linked List](LAB%204/SINGLY%20LINK%20LIST/Lab%204%2022012306%20Auni%20Alyaa.cpp)<br>[Doubly Linked List](LAB%204/DOUBLY%20LINK%20LIST/Lab%204%20double%20link%20list.cpp)|
 
 
 
