@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+
+#define SIZE 5
+
+class Queue {
+public:
+    int arr[SIZE];
+    int front;
+    int rear;
+
+    Queue() {
+        front = -1;
+        rear = -1;
+    }
+
+    // add new element at the rear
+    void enqueue(int value) {
+        if (rear == SIZE - 1) {
+            cout << "Queue is full. Cannot enqueue " << value << "." << endl;
+            return;
+        }
+
+        if (front == -1) {
+            front = 0;
+        }
+
+        rear++;
+        arr[rear] = value;
+        cout << "Enqueued: " << value << endl;
+    }
+
+    void dequeue() {
+        if (front == -1 || front > rear) {
+            cout << "Queue is empty. Cannot dequeue." << endl;
+            return;
+        }
+
+        cout << "Dequeued: " << arr[front] << endl;
+        front++;
+    }
+
+    void display_queue() {
+        if (front == -1 || front > rear) {
+            cout << "Queue is empty." << endl;
+            return;
+        }
+
+        cout << "Queue: ";
+        for (int i = front; i <= rear; i++) {
+            cout << arr[i] << " -> ";
+        }
+        cout << "NULL" << endl;
+    }
+};
+
+int main() {
+    cout << "Queue (Array-Based)" << endl;
+    Queue q;
+
+    q.enqueue(10);
+    q.enqueue(20);
+    q.enqueue(30);
+    q.enqueue(40);
+    q.enqueue(50);
+
+    cout << "Queue: ";
+    q.display_queue();
+
+    q.dequeue();
+    q.dequeue();
+
+    cout << "After dequeueing:" << endl;
+    q.display_queue();
+
+    return 0;
+}
