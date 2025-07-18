@@ -16,7 +16,7 @@ LAB GROURP : 3
 | 20/6/2025 | 4   |Circular Linked List :<br>[Singly](LAB%204/SINGLY%20LINK%20LIST/Lab%204%2022012306%20Auni%20Alyaa.cpp)<br>[Doubly](LAB%204/DOUBLY%20LINK%20LIST/Lab%204%20double%20link%20list.cpp)|
 | 26/6/2025 | 5   |[Stack](LAB%205%20/stack) |
 | 4/7/2025  | 6   |Queue :<br>[Array](LAB%206/queue%20(array)%20/Lab_6_que_arr)<br>[Linked List](LAB%206/Circular%20queue%20(array)%20/Lab6_cirQueArr)<br>Circular queue :<br>[array](LAB%206/queue%20(linked%20list)%20/lab%206%20Queue%20(Linked%20List))    |
-| 11/7/2025 | 7   |[Tree](LAB&207/Tree) |
+| 11/7/2025 | 7   |[Tree](LAB%207/Tree) |
 | 18/7/2025 | 8   | |
 
 
