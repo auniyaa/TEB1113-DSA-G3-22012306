@@ -1,0 +1,77 @@
+/*NAME : AUNI ALYAA NATASYA BINTI MOHAD SALUDDIN
+STUDENT ID: 22012306*/
+
+
+#include <iostream>
+using namespace std;
+
+class Node {
+public:
+    string name;
+    Node* left;
+    Node* right;
+
+    Node(string n) {
+        name = n;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+
+class Tree {
+public:
+    Node* root;
+
+    Tree() {
+        root = nullptr;
+    }
+
+    void add_root(string name) {
+        root = new Node(name);
+    }
+
+    void add_left(Node* parent, string name) {
+        parent->left = new Node(name);
+    }
+
+    void add_right(Node* parent, string name) {
+        parent->right = new Node(name);
+    }
+    
+    void display_tree(Node* node) {
+        if (node == nullptr) return;
+
+        cout << "Node: " << node->name;
+
+        cout << " | Left: " << (node->left ? node->left->name : "null");
+        cout << " | Right: " << (node->right ? node->right->name : "null");
+
+        cout << endl;
+
+        display_tree(node->left);
+        display_tree(node->right);
+    }
+
+};
+
+int main() {
+    Tree tree;
+
+    tree.add_root("A");
+    Node* A = tree.root;
+
+    tree.add_left(A, "B");
+    tree.add_right(A, "C");
+    Node* B = A->left;
+    Node* C = A->right;
+
+    tree.add_left(B, "D");
+    tree.add_right(B, "E");
+    tree.add_left(C, "F");
+    tree.add_right(C, "G");
+
+    
+    tree.display_tree(tree.root);
+
+    return 0;
+}
