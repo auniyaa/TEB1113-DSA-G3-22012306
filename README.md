@@ -17,6 +17,6 @@ LAB GROURP : 3
 | 26/6/2025 | 5   |[Stack](LAB%205%20/stack) |
 | 4/7/2025  | 6   |Queue :<br>[Array](LAB%206/queue%20(array)%20/Lab_6_que_arr)<br>[Linked List](LAB%206/Circular%20queue%20(array)%20/Lab6_cirQueArr)<br>Circular queue :<br>[array](LAB%206/queue%20(linked%20list)%20/lab%206%20Queue%20(Linked%20List))    |
 | 11/7/2025 | 7   |[Tree](LAB%207/Tree) |
-| 18/7/2025 | 8   | |
+| 18/7/2025 | 8   |[Search Tree](LAB%208%20/SearchTree) |
 
 
